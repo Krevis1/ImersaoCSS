@@ -1,0 +1,39 @@
+body{
+    background-image:
+      url(https://imepac.edu.br/wp-content/uploads/2019/06/caduceu-with-loop-background_ntxjye_fe__F0008-1024x576.png);
+    background-size: auto;
+    font-family: Arial;
+    height: 100vh;
+    
+  }
+  
+  .menu{
+    background-color: #22ff99;
+  }
+  a{
+    color: teal;
+    text-decoration: none;
+  }
+  a:hover {
+  text-decoration: underline;  
+  }
+  
+  .menu li{
+    list-style: none;
+  }
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .site-title{
+      text-align: center;
+    color: white
+  }
+  
+  .site-subtitle{
+    text-align: left;
+    color: #102789;
+    font-style: italic;
+  }
