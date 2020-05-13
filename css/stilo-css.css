@@ -1,14 +1,46 @@
+/* soft-reset do css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body{
-    background-image:
-      url(https://imepac.edu.br/wp-content/uploads/2019/06/caduceu-with-loop-background_ntxjye_fe__F0008-1024x576.png);
-    background-size: auto;
+    background-image: url("../img/meu fundo.jpg");
+    background-size:auto;
+    opacity: 0,3;
     font-family: Arial;
     height: 100vh;
+    width: auto
+
     
   }
-  
+  /* breakpoint */
+/*se a tela tiver pelo menos 400px vai carregar estes estilos*/
+  @media (min-width: 400px) {
+ body{
+   font-size: 22px;
+ }
+  }
+  header{
+    height: 70vh;
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+  }
+  .menu a{
+   display: block;
+    padding: 15px 25px;
+   
+  }
   .menu{
     background-color: #22ff99;
+   position: fixed;
+   width: 100vw;
+   top: 0;
+
   }
   a{
     color: teal;
@@ -25,15 +57,22 @@ body{
   .menu ul{
     display: flex;
     justify-content: space-around;
+    
   }
   
   .site-title{
       text-align: center;
-    color: white
+    color: rgb(21, 60, 133)
   }
   
   .site-subtitle{
     text-align: left;
-    color: #102789;
-    font-style: italic;
+    color: #111838;
+    font-style: italic, bold;
+  }
+
+  .img-portfolio{
+    height: 150px;
+    width: 150px;
+    
   }
