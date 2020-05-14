@@ -11,7 +11,7 @@ body{
     background-image: url("../img/meu fundo.jpg");
     background-size:auto;
     opacity: 0,3;
-    font-family: Arial;
+    font-family: 'Roboto Mono', monospace;
     height: 100vh;
     width: auto
 
@@ -61,18 +61,26 @@ body{
   }
   
   .site-title{
+    font-family: 'Great Vibes', cursive;
       text-align: center;
     color: rgb(21, 60, 133)
   }
   
   .site-subtitle{
-    text-align: left;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
     color: #111838;
-    font-style: italic, bold;
+    font-style: italic;
+    line-height: 1.5em;
   }
 
-  .img-portfolio{
-    height: 150px;
-    width: 150px;
-    
+  .Formação{
+    font-family: 'Source Code Pro', monospace;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    font-style: oblique;
+    height: 85vh;
+    color:rgb(21, 60, 133)
+
   }
